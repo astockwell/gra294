@@ -1,2 +1,2 @@
-Course Content for ASU VCD's GRA-294
-===================================
+ASU VCD's GRA-294
+=================
