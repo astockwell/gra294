@@ -1,0 +1,46 @@
+/* Global Stylesheet */
+
+body {
+	background: #ccc;
+	font-family: "Helvetica Neue", Arial, sans-serif;
+	line-height: 1.5em;
+}
+h2 {
+	font-weight: bold;
+}
+ol {
+	list-style: decimal;
+	margin: 0.5em 0 0.5em 1.5em;
+}
+.wrapper {
+	margin: 2%;
+}
+
+/* Apply to all image tags (images 1 & 2) */
+img {
+	max-width: 200px; /*Retina*/
+}
+
+/* Apply to the div tag that wraps the second image tag */
+.image2 {
+	display: inline-block;
+	overflow: hidden;
+	max-width: 200px;
+	max-height: 200px;
+}
+.image2 img {
+	max-width: none;
+}
+
+/* Apply to images 3 & 4 (which are actually div tags with background-images) */
+.bgimage {
+	height: 200px;
+	width: 200px;
+	display: inline-block;
+}
+.image3 {
+	background: transparent url('../images/treetop3.jpg') no-repeat 0 0 / 100%;
+}
+.image4 {
+	background: transparent url('../images/treetop3.jpg') repeat 0 0 / 25%;
+}

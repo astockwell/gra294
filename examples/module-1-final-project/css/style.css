@@ -1,0 +1,94 @@
+/* Global Stylesheet */
+
+body {
+	background: #ccc;
+	font-family: "Helvetica Neue", Arial, sans-serif;
+	line-height: 1.5em;
+	width: 100%;
+}
+
+
+/* Navigation */
+nav {
+	background: #999;
+	top: 0;
+	left: 0;
+	position: fixed;
+	width: 100%;
+}
+
+nav li {
+	float: left;
+	margin-left: 20px;
+	color: #333;
+}
+nav a {
+	color: #333;
+	font-size: 14px;
+	text-decoration: none;
+}
+nav a:hover {
+	color: #000;
+	text-decoration: underline;
+}
+
+
+/* Global Layout */
+.wrapper {
+	position: relative;
+	background: #fff;
+	height: 300px;
+	margin: 0 auto;
+	margin-top: 75px;
+	max-width: 300px;
+	overflow: auto;
+	padding: 100px;
+}
+
+.current-page {
+	text-decoration: underline;
+}
+
+
+/* Board 1 Layout */
+.board1 {
+	background: rgba(88,191,255,1);
+	border: 100px #000 solid;
+	height: 100px;
+	margin: 0 auto;
+	max-width: 100px;
+	position: relative;
+}
+
+/* Board 3 Layout */
+.board3 {
+	background-image: url('../images/treetop.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 300px;
+	margin: 0 auto;
+	max-width: 300px;
+	position: relative;
+}
+
+/* Line with Image Layout */
+.lines {
+	overflow: auto;
+}
+.lines div {
+	width: 50px;
+	height: 50px;
+	background: black;
+	float: left;
+	margin-right: 50px;
+}
+.lines div.alt {
+	margin-right: 0;
+	margin-left: 50px;
+}
+.overlay {
+	width: 300px; /* Image is 2x size for retia display clarity */
+	position: relative;
+	top: -300px;
+}
+
