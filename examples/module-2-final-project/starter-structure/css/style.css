@@ -1,0 +1,57 @@
+/*
+ * TYPOGRAPHY
+ */
+a  {  }
+h1 { font-size: 2em; }
+h2 { font-size: 1.5em; }
+h3 {  }
+h4 {  }
+h5 {  }
+h6 {  }
+p  {  }
+ol {  }
+ul {  }
+
+
+/*
+ * HEADER
+ */
+header {
+	background-color: #eee;
+}
+nav {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+nav a {
+	display: inline-block;
+	padding: 0.5em 0.75em;
+}
+nav a:hover {
+	background-color: #ccc;
+}
+nav a.large {
+	font-size: 1.2em;
+	line-height: normal;
+}
+nav a.current-page {
+	background-color: #888;
+	color: white;
+}
+
+
+/*
+ * CONTENT
+ */
+.content {
+	max-width: 1000px; /*"max-width" rather than "width" allows the div to flex as the browser gets smaller than 1000px*/
+	margin: 0 auto;
+}
+
+
+/*
+ * HELPERS
+ */
+/* "Clearfix" hack. See http://nicolasgallagher.com/micro-clearfix-hack/ */
+.cf:before, .cf:after { content: " "; display: table; }
+.cf:after { clear: both; }
