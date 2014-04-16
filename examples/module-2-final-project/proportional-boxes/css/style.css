@@ -1,0 +1,21 @@
+/* Set box-sizing */
+* { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+.outer, .middle, .inner {
+	margin: 0 auto;
+}
+.outer {
+	position: relative;
+	background-color: #000;
+	max-width: 600px;
+}
+.middle {
+	background-color: #999;
+	height: 100%;
+	width: 100%;
+}
+.inner {
+	background-color: #ccc;
+	height: 100%;
+	width: 100%;
+}
